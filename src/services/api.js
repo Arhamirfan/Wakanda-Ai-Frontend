@@ -1,4 +1,4 @@
-const API_BASE = process.env.REACT_APP_API_BASE || 'http://localhost:4000'
+const API_BASE = process.env.REACT_APP_API_BASE || 'https://wakanda-ai-backend-inky.vercel.app'
 
 export async function uploadFiles(files, extra = {}) {
   const form = new FormData()
