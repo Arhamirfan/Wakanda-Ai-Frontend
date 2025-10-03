@@ -5,8 +5,7 @@ import SectionReveal from '../components/SectionReveal';
 import LogoMarquee from '../components/LogoMarquee';
 import MetricCounter from '../components/MetricCounter';
 import Carousel from '../components/Carousel';
-import ParallaxField from '../components/ParallaxField';
-import ScrollShowcase from '../components/ScrollShowcase'; 
+import ParallaxField from '../components/ParallaxField'; 
 
 export default function Home() {
   return (
@@ -33,9 +32,7 @@ export default function Home() {
         </section>
       </ParallaxField>
 
-      <LogoMarquee />
-
-      <ScrollShowcase />
+      <LogoMarquee /> 
 
       <SectionReveal>
         <section className="rounded-2xl border border-[#1F2937] bg-[#0F172A] p-6 shadow-card" id="how">
